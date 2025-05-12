@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0f1b;
+    color: #e0e0e0;
+}
+.infosec-hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #111827;
+}
+.infosec-hero h1 {
+    font-size: 3rem;
+    color: #cd7f32;
+}
+.infosec-hero p {
+    font-size: 1.2rem;
+    color: #ccc;
+    max-width: 800px;
+    margin: 10px auto 0;
+}
+.services-detail {
+    padding: 60px 20px;
+}
+.services-detail .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.service-card {
+    background-color: #1b2a49;
+    border: 1px solid #6aa0ff;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+}
+.service-card h3 {
+    font-size: 1.4rem;
+    color: #6aa0ff;
+    margin-bottom: 10px;
+}
+.service-card p {
+    color: #ccc;
+    font-size: 1rem;
+    line-height: 1.6;
+}

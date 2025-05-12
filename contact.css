@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0f1b;
+    color: #e0e0e0;
+}
+
+.contact-hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #111827;
+}
+
+.contact-hero h1 {
+    font-size: 3rem;
+    color: #cd7f32;
+}
+
+.contact-hero p {
+    font-size: 1.2rem;
+    color: #ccc;
+    max-width: 800px;
+    margin: 10px auto 0;
+}
+
+.contact-form {
+    padding: 60px 20px;
+}
+
+.contact-form .container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #6aa0ff;
+    border-radius: 5px;
+    background-color: #1b2a49;
+    color: #fff;
+}
+
+.submit-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1rem;
+    color: white;
+    background-color: #1b2a49;
+    border: 1px solid #6aa0ff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #6aa0ff;
+    color: #0a0f1b;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #0a0f1b;
+    color: #888;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0f1b;
+    color: #e0e0e0;
+}
+
+.ai-hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #111827;
+}
+
+.ai-hero h1 {
+    font-size: 3rem;
+    color: #cd7f32;
+}
+
+.ai-hero p {
+    font-size: 1.2rem;
+    color: #ccc;
+    max-width: 800px;
+    margin: 10px auto 0;
+}
+
+.ai-services {
+    padding: 60px 20px;
+}
+
+.ai-services .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.ai-card {
+    background-color: #1b2a49;
+    border: 1px solid #6aa0ff;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.ai-card:hover {
+    transform: translateY(-5px);
+}
+
+.ai-card h3 {
+    font-size: 1.4rem;
+    color: #6aa0ff;
+    margin-bottom: 10px;
+}
+
+.ai-card p {
+    color: #ccc;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #0a0f1b;
+    color: #888;
+    font-size: 0.9rem;
+}

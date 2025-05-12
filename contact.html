@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | ni0ntech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <header class="contact-hero">
+        <div class="container">
+            <h1>Contact</h1>
+            <p>Want to collaborate, hire, or ask a question? Drop your message below and I'll get back to you personally.</p>
+        </div>
+    </header>
+
+    <section class="contact-form">
+        <div class="container">
+            <form name="contact" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+<footer class="site-footer">
+        <p>© 2025 ni0ntech. Joshua Rubio</p>
+        <div class="social-links">
+            <a href="https://github.com/ni0ntech" target="_blank">GitHub</a> |
+            <a href="https://www.datacamp.com/portfolio/ni0ntech" target="_blank">DataCamp</a>
+        </div>
+    </footer>

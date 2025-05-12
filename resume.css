@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0f1b;
+    color: #e0e0e0;
+}
+
+.resume-hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #111827;
+}
+
+.resume-hero h1 {
+    font-size: 3rem;
+    color: #cd7f32;
+}
+
+.resume-hero p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.resume-content {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.download-btn {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #1b2a49;
+    color: white;
+    border: 1px solid #6aa0ff;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #6aa0ff;
+    color: #0a0f1b;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #0a0f1b;
+    color: #888;
+    font-size: 0.9rem;
+}
