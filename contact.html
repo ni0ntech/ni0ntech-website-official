@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | ni0ntech</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> 
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="apple-touch-icon" href="images/webclip.png">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <button class="hamburger" onclick="toggleMenu()">☰</button>
+            <a href="index.html" class="nav-logo"><img src="images/logo_rounded.png" alt="ni0ntech logo" class="nav-logo-img"></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="ai.html">AI Agents</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <header class="contact-hero">
+        <div class="container">
+            <h1>Contact</h1>
+            <p>Want to collaborate, hire, or ask a question? Drop your message below and I'll get back to you
+                personally.</p>
+        </div>
+    </header>
+
+    <section class="contact-form">
+        <div class="container">
+            <form name="contact" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact">
+                <div class="form-group">
+                    
+                    <div class="name-fields">
+                        <div class="first-name">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div class="last-name">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <p>© 2025 ni0ntech. Joshua Rubio</p>
+        <div class="social-links">
+            <a href="https://github.com/ni0ntech" target="_blank">GitHub</a> |
+            <a href="https://www.datacamp.com/portfolio/ni0ntech" target="_blank">DataCamp</a>
+        </div>
+    </footer>
